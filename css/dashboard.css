@@ -1,0 +1,63 @@
+:root{
+    --first-color: #d8a2bb;
+    --second-color: #7b8ba4;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    background: #f3f3f3;
+    font-family: tohama;
+}
+#side-area{
+    background: var(--first-color);
+    color: #fff;
+    padding: 20px 0;
+}
+#side-area h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#side-area ul{
+    list-style: none;
+    padding:0;
+}
+#side-area ul li{
+    background: var(--second-color);
+    margin-bottom: 5px;
+    padding: 5px
+}
+#side-area ul li a{
+    color: #fff;
+}
+#side-area #menu li{
+    background: #000;
+}
+#main-area{
+    margin-top: 20px;
+}
+/* Categories */
+.add-category{
+    margin-top: 30px;
+}
+.btn-custom{
+    background: var(--first-color);
+    color: #fff;
+    border: 1px solid var(--first-color);
+    padding: 5px 10px;
+    width: 100px;
+}
+button.custom-btn{
+    background: var(--first-color) !important;
+    color: #fff !important;
+    cursor: default;
+    border: 1px solid var(--first-color);
+    padding: 5px 10px;
+}
+
+table th {
+    background: var(--first-color);
+    color: #fff;
+}
+
+/* All posts */
